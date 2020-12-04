@@ -15,16 +15,12 @@ interface Path {
   down: number;
 }
 
-const treeCnt = (input: string[], params: Path) => {
+const treeCnt = (input: string[], path: Path) => {
   return input
-    .filter((_, index) => index % params.down === 0)
+    .filter((_, index) => index % path.down === 0)
     .reduce((acc, value, index) => {
-      return value[(index * params.right) % value.length] === "#"
-        ? acc + 1
-        : acc;
+      return value[(index * path.right) % value.length] === "#" ? acc + 1 : acc;
     }, 0);
 };
 
-console.log(
-  pathMap.reduce((resultsAcc, params) => resultsAcc * treeCnt(input, params), 1)
-);
+console.log(pathMap.reduce((acc, value) => acc * treeCnt(input, value), 1));
