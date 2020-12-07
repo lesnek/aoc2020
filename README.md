@@ -27,4 +27,15 @@ I am trying my best to learn Typescript, in any case do not use my code in somet
     <td>⭐️⭐️⭐️⭐️⭐️</td>
     <td>⭐️⭐️</td>
   </tr>
+  <tr>    
+    <td>4</td>
+    <td>⭐️⭐️⭐️⭐️⭐️</td>
+    <td>⭐️⭐️</td> (don't want to do part two, too much conditions for my lazyness)
+  </tr>  
+  <tr>    
+    <td>5</td>
+    <td>fml, lost nerves, done in python</td>
+    <td>⭐️⭐️</td>
+  </tr>
+
 </table>
