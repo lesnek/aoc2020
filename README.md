@@ -30,7 +30,8 @@ I am trying my best to learn Typescript, in any case do not use my code in somet
   <tr>    
     <td>4</td>
     <td>⭐️⭐️⭐️⭐️⭐️</td>
-    <td>⭐️⭐️</td> (don't want to do part two, too much conditions for my lazyness)
+    <td>⭐️⭐️</td> (
+    <td>don't want to do part two, too much conditions for my lazyness)</td>
   </tr>  
   <tr>    
     <td>5</td>
